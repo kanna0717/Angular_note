@@ -1,0 +1,34 @@
+<section>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card shadow-lg" style="width:18rem;">
+                  <img [src]="foodimg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted ">{{subtitle}}</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="h2">{{count}}</p>
+                    <button (click)="increcount()" class="btn btn-outline-primary me-2 ">Add</button>
+                    <button (click)="deccount()" class="btn btn-outline-danger ">Delete</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-lg" style="width:18rem;">
+                  <img [src]="foodimg1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{title1}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted ">{{subtitle1}}</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="h2">{{count1}}</p>
+                    <button (click)="increcount1()" class="btn btn-outline-primary me-2 ">Add</button>
+                    <button (click)="deccount1()" class="btn btn-outline-danger ">Delete</button>
+                  </div>
+                </div>
+            </div>
+        
+        </div>            
+        </div>
+</section>
+
